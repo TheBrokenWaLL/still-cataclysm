@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:meadow",
+	"still_life:mixed_forest_steppe",
+	"#c:plains"
+  ]
+}

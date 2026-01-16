@@ -1,0 +1,816 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 8,
+                      "max": 12
+                    },
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:bronze_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 60,
+                      "max": 80
+                    },
+                    "add": false
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 2,
+              "max_uses": 16,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:club"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 6,
+              "max_uses": 4,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 6,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:stone_shortsword"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 8,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 7,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:stone_ranseur"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 8,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 7,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:stone_ahlspiess"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 8,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 8,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:stone_bastardsword"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 8,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:stone_concavehalberd"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 8,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 7,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:stone_chainmorgenstern"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 8,
+              "max_uses": 3,
+              "reward_experience": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 20,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "iceandfire:raw_silver",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 8
+                    },
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 10,
+              "max_uses": 12,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 18,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:silver_shortsword"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 30,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 21,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:silver_ranseur"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 30,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 20,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:silver_ahlspiess"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 30,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 23,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:silver_bastardsword"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 30,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 26,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:silver_concavehalberd"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 30,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 20,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:silver_chainmorgenstern"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 30,
+              "max_uses": 3,
+              "reward_experience": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 70,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "iceandfire:witherbone"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 10
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 20,
+              "max_uses": 12,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "iceandfire:stymphalian_bird_feather"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 8
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 30,
+              "max_uses": 12,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 45,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:steel_shortsword"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 52,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:steel_ranseur"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 56,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:steel_ahlspiess"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 58,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:steel_bastardsword"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 65,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:steel_concavehalberd"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 50,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:steel_chainmorgenstern"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 150,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "iceandfire:dragonbone"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 30
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 30,
+              "max_uses": 12,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "iceandfire:sea_serpent_fang"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:silver_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 16
+                  }
+                ]
+              },
+              "price_multiplier": 0.05,
+              "trader_experience": 30,
+              "max_uses": 12,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_ranseur"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_ranseur"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_ahlspiess"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_bastardsword"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_concavehalberd"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2,
+                    "add": false
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_chainmorgenstern"
+              },
+              "price_multiplier": 0.2,
+              "trader_experience": 50,
+              "max_uses": 3,
+              "reward_experience": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 250,
+      "groups": [
+        {
+          "num_to_select": 4,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_shortsword"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:netherite_shortsword"
+              },
+              "trader_experience": 0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_ranseur"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:netherite_ranseur"
+              },
+              "trader_experience": 0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_ahlspiess"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:netherite_ahlspiess"
+              },
+              "trader_experience": 0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_bastardsword"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:netherite_bastardsword"
+              },
+              "trader_experience": 0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_concavehalberd"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:netherite_concavehalberd"
+              },
+              "trader_experience": 0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:diamond_chainmorgenstern"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "numismatic-overhaul:gold_coin"
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "magistuarmory:netherite_chainmorgenstern"
+              },
+              "trader_experience": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

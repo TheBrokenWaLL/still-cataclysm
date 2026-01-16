@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#c:beach",
+    "#c:tree/coniferous",
+    "#c:forest",
+    "#c:hill",
+    "#c:jungle",
+    "#c:savanna"
+  ]
+}

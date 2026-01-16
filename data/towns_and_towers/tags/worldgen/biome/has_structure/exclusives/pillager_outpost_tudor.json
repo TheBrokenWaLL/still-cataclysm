@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "terralith:highlands",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:highland",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:highland_moor",
+            "required": false
+        },        
+        {
+            "id": "still_life:taiga_highlands",
+            "required": false
+        },
+        {
+            "id": "still_life:alpine_heathlands",
+            "required": false
+        },
+        {
+            "id": "still_life:alpine_plains",
+            "required": false
+        },
+        {
+            "id": "hybrid_beta:temperate_rainforest",
+            "required": false
+        }
+    ]
+}

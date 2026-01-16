@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:graybeard_staff",
+	"irons_spellbooks:blood_staff",
+	"irons_spellbooks:ice_staff",
+	"irons_spellbooks:artificer_cane"
+  ]
+}
